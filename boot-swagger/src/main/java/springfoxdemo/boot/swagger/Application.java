@@ -76,7 +76,6 @@ public class Application {
                     .description("API version")
                     .parameterType("path")
                     .name("version")
-                    .parameterType("string")
                     .modelRef(new ModelRef("string"))
                     .build());
         }
